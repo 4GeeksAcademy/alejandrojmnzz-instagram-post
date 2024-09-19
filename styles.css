@@ -1,0 +1,52 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.post{
+    height: 700px;
+    width: 500px;
+    background-color: white;
+}
+
+.post-header{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+.user{
+    display:flex;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+}
+.icon{
+    font-size: 40px;
+}
+.user-name p{
+    margin: 1px 0px
+}
+.ellipsis{
+    font-size: 35px;
+}
+.post-img img{
+    width: 100%;
+}
+.interactions {
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px
+}
+.buttons {
+    display:flex;
+    gap: 10px
+}
+.text {
+
+    font-size: 17px;
+    margin: 0px 15px
+}
